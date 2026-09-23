@@ -1,0 +1,62 @@
+header {
+
+    align-items: center;
+}
+
+.fdh{
+    background-color: red;
+}
+
+.llm {
+    background-color: blue;
+}
+
+.IPE {
+    background: orange;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+header {
+    background-color: aqua;
+    padding: 20px ;
+}
+
+footer{
+    background-color: rgb(160, 201, 57);
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead, td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    text-align: center;
+}
+
+thead{
+    background-color: antiquewhite ;
+    font-size: 20px;
+}
+
+tbody{
+
+}
+
+.ipe{
+    background-color:brown;
+}
