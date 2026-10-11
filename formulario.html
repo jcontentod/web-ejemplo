@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-    <h1>Mi primera web de Lenguaje de Marcas</h1>
+    <h1 class="titulo-cabecera">Mi primera web de Lenguaje de Marcas</h1>
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="horario.html">Horario</a>
-        <a href="formulario.html">Formulario</a>
+        <a class="enlace-menu" href="index.html">Inicio</a>
+        <a class="enlace-menu" href="horario.html">Horario</a>
+        <a class="enlace-menu" href="formulario.html">Formulario</a>
 
     </nav>
     </header>
@@ -92,24 +92,24 @@
                 <fieldset>
                     <legend>Botones</legend>
                     <p>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar">
+                        <input class="boton" type="submit" value="Enviar">
+                        <input class="boton boton-borrar" type="reset" value="Borrar">
                     </p>
                 </fieldset>
                 <fieldset>
                 <legend>Opciones</legend>
                 <p>Selecciona una opción:</p>
-          <input type="radio" id="opcion1" name="opcion" value="1" />
+          <input class="radio" type="radio" id="opcion1" name="opcion" value="1" />
           <label for="opcion1">Opción 1</label>
 
           <br/>
 
-          <input type="radio" id="opcion2" name="opcion" value="2" />
+          <input class="radio" type="radio" id="opcion2" name="opcion" value="2" />
           <label for="opcion2">Opción 2</label>
 
           <br/>
 
-          <input type="radio" id="opcion3" name="opcion" value="3" />
+          <input class="radio" type="radio" id="opcion3" name="opcion" value="3" />
           <label for="opcion3">Opción 3</label>
         
         
@@ -117,6 +117,7 @@
           <p>Selecciona tus aficiones:</p>
 
           <input
+            class="casilla"
             type="checkbox"
             id="deporte"
             name="aficiones"
@@ -126,11 +127,12 @@
           <label for="deporte">Deporte</label>
           <br />
 
-          <input type="checkbox" id="musica" name="aficiones" value="musica" />
+          <input class="casilla" type="checkbox" id="musica" name="aficiones" value="musica" />
           <label for="musica">Música</label>
           <br />
 
           <input
+            class="casilla"
             type="checkbox"
             id="informatica"
             name="aficiones"
@@ -147,8 +149,8 @@
     <p></p>
     <!--FOOTER PIE PAGINA-->
     <footer>
-        <fieldset>
-                <p>Correo: <a href="mailto:jorgecontentod@gmail.com">jorgecontentod@gmail.com</a></p>
+        <fieldset class="pie-datos">
+                <p>Correo: <a class="enlace-correo" href="mailto:jorgecontentod@gmail.com">jorgecontentod@gmail.com</a></p>
                 <p>Instituto: CIFP Virgen de Gracia</p>
                 <p>Dirección: Paseo de San Gregorio, 82-84. 13500. Puertollano (Ciudad Real)</p>
                 </fieldset>
